@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>SQL2012.SQLDom</id>
+        <version>11.1.2825.1</version>
+        <title>Microsoft® SQL Server® 2012 Data-Tier Application Framework (March 2013)</title>
+        <authors>Microsoft</authors>
+        <owners>Stanislaw Wozniak</owners>
+        <projectUrl>http://www.microsoft.com/en-gb/download/details.aspx?id=36842</projectUrl>
+        <iconUrl>https://github.com/sponte/SQL2012.SQLDom/raw/master/SQL2012.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>The Microsoft® SQL Server® 2012 Data-Tier Application Framework (March 2013) provides application lifecycle services for database development and management.</description>
+        <summary>The Microsoft® SQL Server® 2012 Data-Tier Application Framework (March 2013) provides application lifecycle services for database development and management.</summary>
+        <releaseNotes />
+        <tags>SQL SQL2012 .NET XML CLR DOM</tags>
+        <dependencies>
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="tools\chocolateyInstall.ps1" target="tools\chocolateyInstall.ps1" />
+        <file src="tools\chocolateyUninstall.ps1" target="tools\chocolateyUninstall.ps1" />
+        <file src="README.md" target="README.md" />
+        <file src="SQL2012.png" target="SQL2012.png" />
+    </files>
+</package>
